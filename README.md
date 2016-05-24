@@ -1,6 +1,7 @@
 # Clappr Bandwidth Analyzer Plugin
 
-<img src="https://mediahub-bg.github.io/clappr-bandwidth-analyzer/demo.png"><br><br>
+![Preview](https://mediahub-bg.github.io/clappr-bandwidth-analyzer/demo.png "Preview")
+<img src=""><br><br>
 
 ### Demo
 
@@ -8,7 +9,7 @@
 
 ### Compatibility
 
-This working only if video is playing on HTML5 Video Tag and browser support fowling properties on HTML5 Video Tag:
+This working only if video is playing on HTML5 Video Tag and browser support following properties on HTML5 Video Tag:
 * webkitVideoDecodedByteCount
 * webkitDroppedFrameCount
 * webkitDecodedFrameCount
@@ -46,7 +47,7 @@ var player = new Clappr.Player({
 });
 ```
 
-How to customiz and defalt settings:
+How to customizе and defalt settings:
 
 ```javascript
 var player = new Clappr.Player({
