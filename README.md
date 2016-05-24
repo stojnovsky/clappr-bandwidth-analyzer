@@ -1,7 +1,6 @@
 # Clappr Bandwidth Analyzer Plugin
 
-![Preview](https://mediahub-bg.github.io/clappr-bandwidth-analyzer/demo.png "Preview")
-<img src=""><br><br>
+![alt text](https://mediahub-bg.github.io/clappr-bandwidth-analyzer/demo.png "Preview")
 
 ### Demo
 
