@@ -46,7 +46,7 @@ var player = new Clappr.Player({
 });
 ```
 
-How to customizе and defalt settings:
+How to customizе and default settings:
 
 ```javascript
 var player = new Clappr.Player({
