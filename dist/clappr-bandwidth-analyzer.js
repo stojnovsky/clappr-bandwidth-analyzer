@@ -98,12 +98,12 @@ var ClapprBandwidthAnalyzer = (function (_UiCorePlugin) {
 
                 this.options = {
                     width: options.width || "50%",
-                    height: options.height || "50%",
+                    height: options.height || "40%",
                     border: options.border || "2px solid #00aba9!important",
                     background: options.background || "rgba(60,63,65,.7)",
-                    y_max: options.y_max || 10000,
+                    y_max: options.y_max || 5000,
                     y_min: options.y_min || 0,
-                    x_timeDuration: options.x_timeDuration || 30,
+                    x_timeDuration: options.x_timeDuration || 60,
                     bandwidth: {
                         lineWidth: options.bandwidth.lineWidth || 1,
                         color: options.bandwidth.color || "#0f0"
