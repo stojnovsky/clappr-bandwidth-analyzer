@@ -2,6 +2,10 @@
 
 <img src="https://mediahub-bg.github.io/clappr-bandwidth-analyzer/demo.png"><br><br>
 
+### Demo
+
+[Click here to see a demo](https://mediahub-bg.github.io/clappr_bandwidth_analyzer_demo.html)
+
 ## Usage
 
 Plugin require jQuery and jQuery Flot http://www.flotcharts.org/
