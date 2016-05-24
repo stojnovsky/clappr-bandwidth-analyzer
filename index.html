@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <script type="text/javascript" charset="utf-8" src="/bower_components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" charset="utf-8" src="/bower_components/Flot/jquery.flot.js"></script>
+   <script type="text/javascript" charset="utf-8" src="/bower_components/Flot/jquery.flot.resize.js"></script>
+  <script type="text/javascript" charset="utf-8" src="/dist/clappr.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="/dist/clappr-bandwidth-analyzer.js"></script>
+  <title>clappr-bandwidth-analyzer Test Page</title>
+
+<style media="screen">
+
+
+</style>
+
+  <script type="text/javascript" charset="utf-8">
+
+var player
+window.onload = function() {
+  player = new Clappr.Player({
+    sources: ['http://www.html5rocks.com/en/tutorials/video/basics/devstories.mp4'],
+    parentId: '#player-wrapper',
+    width:720,
+    height: 720*(9/16),
+    mute:false,
+    volume:50,
+    plugins: {
+      core: [ClapprBandwidthAnalyzer]
+  },
+  bandwidthAnalyzer:{
+      'width': '50%',
+      'height': '30%',
+      'border' : '2px solid #00aba9!important',
+      'background': 'rgba(60,63,65,.7)',
+      'y_max': 5000,
+      'y_min': 0,
+      'x_timeDuration': 60,
+      'bandwidth':{
+          'lineWidth': 1,
+          'color': '#0f0'
+      },
+      'averageBandwidth':{
+          'lineWidth':1,
+          'color':'#f00'
+      }
+  }
+
+  });
+}
+  </script>
+</head>
+<body>
+  <div id="player-wrapper">
+  </div>
+  <button onclick="player.destroy(); player.load('http://delivery.elemental.tv:8080/e/573f5a1b20ae0122206383cc/1464032866937/HD/profile.m3u8')">Reload Playlist</button>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "clappr-bandwidth-analyzer",
+  "description": "clappr plugin",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mediahub-bg/clappr-bandwidth-analyzer.git"
+  },
+  "authors": ["Stojnovsky"],
+  "dependencies": {
+    "Flot": "https://github.com/flot/flot.git#^0.8.3",
+    "jquery": "^2.2.4"
+  }
+}
