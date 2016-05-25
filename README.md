@@ -17,9 +17,10 @@ This working only if video is playing on HTML5 Video Tag and browser support fol
 
 
 Tested on:
-* Google Chrome   #Version 50.0.2661.94 unknown (64-bit)
-* Chromium        #Version 49.0.2623.108 Ubuntu 16.04 (64-bit)
-* Vivaldi         #Version 1.1.453.52 (Stable channel) (64-bit)
+* Ubuntu 16.04 - Google Chrome    #Version 50.0.2661.94 unknown (64-bit)
+* Ubuntu 16.04 - Chromium         #Version 49.0.2623.108 Ubuntu 16.04 (64-bit)
+* Ubuntu 16.04 - Vivaldi          #Version 1.1.453.52 (Stable channel) (64-bit)
+* Android 5.0  - Chrome           #Version 50.0.2661.89
 
 
 
